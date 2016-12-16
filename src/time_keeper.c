@@ -16,11 +16,11 @@ struct timespec time_diff(struct timespec start, struct timespec end) {
 }
 
 void timekeeper_tic  (struct timespec *t1) {
-    clock_gettime(CLOCK_MONOTONIC, t1);
+    clock_gettime(CLOCK_MONOTONIC_RAW, t1);
 }
 
 void timekeeper_wait (struct timespec *t1, struct timespec *t2) {
-    clock_gettime(CLOCK_MONOTONIC, t2);
+    clock_gettime(CLOCK_MONOTONIC_RAW, t2);
     struct timespec t3;
     t3.tv_nsec = 16667000 - (time_diff(*t1, *t2).tv_nsec);
     t3.tv_sec  = 0;
