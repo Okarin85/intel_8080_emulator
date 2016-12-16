@@ -6,10 +6,10 @@ This is a i8080 full set emulator, written in C. The original purpose of this co
 TODO list
 =========
 
-[ ] Use `SDL_GetKeyboardState` to query input;
-[ ] Run the input queue more often;
-[ ] Switch to SDL2;
-[ ] Try another ROMs;
+ - [ ] Use `SDL_GetKeyboardState` to query input;
+ - [ ] Run the input queue more often;
+ - [ ] Switch to SDL2;
+ - [ ] Try another ROMs;
 
 Building and Usage
 ==================
