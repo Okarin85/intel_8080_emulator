@@ -1,5 +1,5 @@
 CC=gcc
-override CFLAGS+=-lm -Wall -Wextra -pedantic --std=gnu11 -O3 `sdl-config --libs` -lSDL -fopenmp
+override CFLAGS+=-lm -Wall -Wextra -pedantic --std=gnu11 -O3 `sdl-config --libs` -lSDL
 SOURCES=utils.c                      \
 		disassembler.c               \
 		emulator.c                   \
