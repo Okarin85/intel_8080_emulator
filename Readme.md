@@ -3,6 +3,14 @@ i8080 Emulator
 
 This is a i8080 full set emulator, written in C. The original purpose of this code is to run Space Invaders. So far it runs and passes a couple of testers, space invaders is kidna buggy.
 
+TODO list
+=========
+
+[ ] Use `SDL_GetKeyboardState` to query input;
+[ ] Run the input queue more often;
+[ ] Switch to SDL2;
+[ ] Try another ROMs;
+
 Building and Usage
 ==================
 
